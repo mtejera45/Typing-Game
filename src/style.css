@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Goldman', cursive;
+}
+
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 820px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.titleStyle{
+    color: greenyellow;
+    align-self: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.textAreaStyle_Disabled{
+    background-color: greenyellow;
+    pointer-events: none;
+    color: black;
+    padding: 10px;
+    width: 780px;
+    height: 300px;
+    font-size: 20px;
+}
+.textAreaStyle_Enabled{
+    background-color: greenyellow;
+    color: black;
+    padding: 10px;
+    width: 780px;
+    height: 300px;
+    font-size: 20px;
+}
+.textAreaStyle_Block{
+    padding: 10px;
+    width: 780px;
+    height: 300px;
+    font-size: 20px;
+    pointer-events: none;
+    background-color: brown;  
+    color: white;
+}
+.timeStyle{
+    color: greenyellow;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    align-self: center;
+    font-size: 25px;
+}
+.paragraph{
+    color: greenyellow;
+    padding-bottom: 15px;
+    align-self: center;
+    font-size: 18px;
+    text-align: justify;
+}
+.buttonStyle{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: block;
+    align-self: center;
+}
+.totalWordsStyle{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 213, 0);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    align-self: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.level{
+    height: 40px;
+    width: 780px;
+    font-size: 20px;
+}
+
+.choose{
+    color: greenyellow;
+    padding-bottom: 15px;
+    align-self: center;
+    font-size: 25px;
+}
+.right{
+    color: green;
+}
+.wrong{
+    color: red;
+}
+.mistakes{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+  }
+
+  .parpadea {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
