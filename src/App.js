@@ -18,7 +18,7 @@ export default function App() {
   console.log("wrongWordsArray :" + wrongWordsArray)
   console.log("isActive :" + isActive)
   console.log("levelSeleted :" + levelSeleted)
-  console.log("check :" + check)
+  console.log("paragraphNum :" + paragraphNum)
 
 
 
@@ -57,7 +57,8 @@ export default function App() {
     setParagraphNum(null)
     setWrongWordsArray([])
     setMistakesOn(false)
-    setLevelSeleted(false)
+    setLevelSeleted(true)
+    setCheck(false)
     document.getElementById("textAreaId").value =""
     document.getElementById("textAreaId").setAttribute("class", "textAreaStyle_Disabled")
   }
