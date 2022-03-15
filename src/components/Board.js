@@ -59,7 +59,7 @@ export default function Board(props) {
             
             {!props.typeToStarOn && <button 
                 onClick={(event)=>props.level(event)}
-                value="5"
+                value="60"
                 name="0"
                 className="level">Level 1</button>}
             {!props.typeToStarOn && <button 
